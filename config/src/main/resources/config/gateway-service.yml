@@ -1,0 +1,25 @@
+server:
+  port: 9092
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9091/eureka/
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} ${LOG_LEVEL_PATTERN:-%5p} %m%n"
+
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+      - id: house-service
+        uri: lb://house-service
+        predicates:
+        - Path=/house/**
+        filters:
+        - RewritePath=/house/(?<path>.*), /$\{path}
