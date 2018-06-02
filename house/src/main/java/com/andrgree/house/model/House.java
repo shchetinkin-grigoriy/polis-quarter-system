@@ -11,6 +11,8 @@ public class House {
 
     private String name;
 
+    private Appeal appeal;
+
     private String profile;
 
     public House(String name) {

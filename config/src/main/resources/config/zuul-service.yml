@@ -12,7 +12,11 @@ logging:
 
 zuul:
   routes:
-    houses:
+    house:
       path: /house/**
       serviceId: house-service
+#      url: http://example.com/users_service
+    appeal:
+      path: /appeal/**
+      serviceId: appeal-service
 #      url: http://example.com/users_service

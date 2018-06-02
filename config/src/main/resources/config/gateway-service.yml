@@ -23,3 +23,9 @@ spring:
         - Path=/house/**
         filters:
         - RewritePath=/house/(?<path>.*), /$\{path}
+      - id: appeal-service
+        uri: lb://appeal-service
+        predicates:
+        - Path=/appeal/**
+        filters:
+        - RewritePath=/appeal/(?<path>.*), /$\{path}
