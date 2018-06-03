@@ -21,7 +21,6 @@ public class MainController {
     public Appeal main() {
         logger.info("MainController run");
         Appeal house = new Appeal("12");
-        house = null;
         house.setName("asd");
         return house;
     }
