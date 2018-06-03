@@ -1,0 +1,12 @@
+server:
+  port: 9094
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9091/eureka/
+spring:
+  zipkin:
+    locator:
+      discovery:
+        enabled: true

@@ -1,6 +1,5 @@
 package com.andrgree.house.controller;
 
-import com.andrgree.house.model.Appeal;
 import com.andrgree.house.model.House;
 import com.andrgree.house.proxy.AppealServiceProxy;
 import org.slf4j.Logger;
@@ -25,7 +24,6 @@ public class MainController {
     @GetMapping("/")
     //@HystrixCommand(fallbackMethod = "defaultAppeal")
     public House main() {
-
         House house = new House("12");
         house.setProfile(profile);
         house.setAppeal(serviceProxy.getAppeal());
