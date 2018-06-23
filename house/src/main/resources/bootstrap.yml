@@ -6,6 +6,6 @@ spring:
       uri: http://localhost:9090
   profiles:
     active: test
-feign:
-    hystrix:
-        enabled: true
+#feign:
+#    hystrix:
+#        enabled: true
