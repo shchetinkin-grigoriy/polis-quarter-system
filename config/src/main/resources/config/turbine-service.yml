@@ -1,0 +1,15 @@
+server:
+  port: 9095
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9091/eureka/
+
+turbine:
+  aggregator:
+    clusterConfig: default
+  appConfig: house-service,appeal-service
+  clusterNameExpression: "'default'"
+  combineHostPort: true
+  instanceUrlSuffix.default: actuator/hystrix.stream
