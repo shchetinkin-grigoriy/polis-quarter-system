@@ -10,9 +10,9 @@ import lombok.Setter;
 @Getter
 @NoArgsConstructor
 public class Appeal {
-    public Appeal(String name) {
+    /*public Appeal(String name) {
         this.name = name;
-    }
+    }*/
 
     String name;
 }

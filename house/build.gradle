@@ -1,12 +1,12 @@
 buildscript {
 	ext {
-		springBootVersion = '2.0.2.RELEASE'
+		springBootVersion = '2.1.0.BUILD-SNAPSHOT'
 	}
 	repositories {
 		mavenCentral()
-		maven {
-			url "https://plugins.gradle.org/m2/"
-		}
+		maven { url "https://repo.spring.io/snapshot" }
+		maven { url "https://repo.spring.io/milestone" }
+		maven { url "https://plugins.gradle.org/m2/" }
 	}
 	dependencies {
 		classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
@@ -46,7 +46,8 @@ dependencies {
 	compile('org.springframework.cloud:spring-cloud-starter-openfeign')
 	compile('org.springframework.cloud:spring-cloud-starter-sleuth')
 	compile('org.springframework.cloud:spring-cloud-starter-zipkin')
-	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-hystrix', version: '1.4.4.RELEASE'
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-hystrix'
+	compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-netflix-hystrix-dashboard'
 	runtime('org.springframework.boot:spring-boot-devtools')
 	runtime('com.h2database:h2')
 	runtime('mysql:mysql-connector-java')

@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Value;
 @Data
 @Setter
 @Getter
-@NoArgsConstructor
+//@NoArgsConstructor
 public class House {
 
     private String name;

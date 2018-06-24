@@ -20,7 +20,7 @@ public class MainController {
     @GetMapping("/")
     public Appeal main() {
         logger.info("MainController run");
-        Appeal house = new Appeal("12");
+        Appeal house = new Appeal();
         house.setName("asd");
         return house;
     }
