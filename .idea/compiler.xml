@@ -4,5 +4,27 @@
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="appeal_main" target="1.8" />
+      <module name="appeal_test" target="1.8" />
+      <module name="auth_main" target="1.8" />
+      <module name="auth_test" target="1.8" />
+      <module name="config_main" target="1.8" />
+      <module name="config_test" target="1.8" />
+      <module name="eureka_main" target="1.8" />
+      <module name="eureka_test" target="1.8" />
+      <module name="gateway_main" target="1.8" />
+      <module name="gateway_test" target="1.8" />
+      <module name="house_main" target="1.8" />
+      <module name="house_test" target="1.8" />
+      <module name="polis-quarter-system_main" target="1.8" />
+      <module name="polis-quarter-system_test" target="1.8" />
+      <module name="turbine_main" target="1.8" />
+      <module name="turbine_test" target="1.8" />
+      <module name="zipkin_main" target="1.8" />
+      <module name="zipkin_test" target="1.8" />
+      <module name="zuul_main" target="1.8" />
+      <module name="zuul_test" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

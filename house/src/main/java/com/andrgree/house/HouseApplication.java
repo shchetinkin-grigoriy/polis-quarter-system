@@ -1,7 +1,12 @@
 package com.andrgree.house;
 
+import com.andrgree.house.service.HouseService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.netflix.hystrix.EnableHystrix;
@@ -21,17 +26,21 @@ import java.util.ArrayList;
 import java.util.List;
 
 
+//@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableFeignClients
 @EnableCircuitBreaker
 @EnableSwagger2
 @EnableHystrix
-public class HouseApplication {
+public class HouseApplication implements CommandLineRunner {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HouseApplication.class, args);
 	}
+
+	@Autowired
+	private HouseService houseService;
 
 	@Bean
 	public Docket swaggerApi() {
@@ -57,5 +66,10 @@ public class HouseApplication {
 				/*.useDefaultResponseMessages(false)
 				.globalResponseMessage(RequestMethod.GET, responseMessage)*/;
 
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		houseService.createHouse(1L, "Grag", "Test");
 	}
 }

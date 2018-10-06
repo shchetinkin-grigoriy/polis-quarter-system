@@ -2,6 +2,7 @@ package com.andrgree.house.controller;
 
 import com.andrgree.house.model.House;
 import com.andrgree.house.proxy.AppealServiceProxy;
+import com.andrgree.house.service.HouseService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,10 +22,14 @@ public class MainController {
     @Autowired
     private AppealServiceProxy serviceProxy;
 
+    @Autowired
+    private HouseService houseService;
+
     @GetMapping("/")
     //@HystrixCommand(fallbackMethod = "defaultAppeal")
     public House main() {
-        House house = new House("12");
+        //House house = new House("12");
+        House house = houseService.getHouseById(1L);
         house.setProfile(profile);
         house.setAppeal(serviceProxy.getAppeal());
         return house;

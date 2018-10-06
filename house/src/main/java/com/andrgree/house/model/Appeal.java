@@ -8,12 +8,8 @@ import lombok.Setter;
 @Data
 @Setter
 @Getter
-//@NoArgsConstructor
+@NoArgsConstructor
 public class Appeal {
 
     private String name;
-
-    public Appeal(String name) {
-        this.name = name;
-    }
 }
