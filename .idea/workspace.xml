@@ -2,55 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71817cd2-045d-420c-bd16-a8c6e4ea0126" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_springframework_boot_spring_boot_starter_test_2_0_2_BUILD_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/appeal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/appeal_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/appeal_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/auth.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/config.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/config_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/config_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/gateway.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/gateway_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/gateway_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/house.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/house_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/house_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/polis-quarter-system_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/polis-quarter-system_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/turbine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/turbine_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/turbine_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/zipkin.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/zipkin_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/zipkin_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/zuul.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/zuul_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/zuul_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/repository/HouseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/AuthApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/AuthServerSymmetricConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/WebSecurityConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/model/SecPrivilege.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/model/SecRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/model/SecUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/repository/SecUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/PasswordEncoderConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/SecUserAuthenticationProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/SecUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/config/auth-service.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.7/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appeal/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/appeal/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/house/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/house/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/HouseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/HouseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/model/Appeal.java" beforeDir="false" afterPath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/model/Appeal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/model/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/model/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/turbine/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/turbine/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zipkin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/zipkin/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zuul/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/zuul/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -181,47 +150,53 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="gitignore" value="2" />
-          <entry key="gradle" value="12" />
+          <entry key="gitignore" value="3" />
+          <entry key="gradle" value="13" />
           <entry key="gradlew" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="31" />
-          <entry key="properties" value="14" />
+          <entry key="java" value="47" />
+          <entry key="properties" value="17" />
+          <entry key="sql" value="1" />
           <entry key="txt" value="1" />
           <entry key="xml" value="3" />
-          <entry key="yml" value="6" />
+          <entry key="yml" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="Groovy" value="12" />
+          <entry key="Groovy" value="13" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="31" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Properties" value="14" />
+          <entry key="JAVA" value="47" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Properties" value="17" />
+          <entry key="SQL" value="1" />
           <entry key="Scratch" value="1" />
           <entry key="XML" value="3" />
-          <entry key="YAML" value="6" />
+          <entry key="YAML" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="39" />
-          <entry key="JAVA" value="360" />
+          <entry key="JAVA" value="438" />
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Properties" value="1" />
           <entry key="Scratch" value="23" />
           <entry key="XML" value="9" />
-          <entry key="YAML" value="9" />
+          <entry key="YAML" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="gitignore" value="4" />
           <entry key="gradle" value="39" />
-          <entry key="java" value="360" />
-          <entry key="txt" value="23" />
+          <entry key="java" value="438" />
+          <entry key="properties" value="1" />
+          <entry key="txt" value="36" />
           <entry key="xml" value="9" />
-          <entry key="yml" value="9" />
+          <entry key="yml" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -232,69 +207,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java">
+        <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/AuthServerSymmetricConfigurer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/house/.gitignore">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/proxy/AppealServiceProxy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+            <state relative-caret-position="295">
+              <caret line="36" column="41" lean-forward="true" selection-start-line="26" selection-end-line="41" selection-end-column="5" />
               <folding>
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/model/Appeal.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/WebSecurityConfigurer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-240">
-              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="-165">
+              <caret line="19" column="68" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -303,19 +231,77 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/house-service.properties">
+        <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/auth-service.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" selection-start-line="11" selection-end-line="11" selection-end-column="43" />
+            <state relative-caret-position="261">
+              <caret line="29" column="9" selection-end-line="40" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/HouseApplication.java">
+        <entry file="file://$PROJECT_DIR$/auth/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="72" column="27" selection-start-line="72" selection-start-column="27" selection-end-line="72" selection-end-column="27" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/AuthApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/zipkin/src/main/java/com/andrgree/zipkin/ZipkinApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/turbine/src/main/java/com/andrgree/turbine/TurbineApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.0.5.RELEASE/e18caab51190027ed8bafd8ed5d2f46174a86b50/spring-security-config-5.0.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="172">
+              <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/SecUserDetailsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="41">
+              <caret line="20" column="30" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2243#2257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/model/SecPrivilege.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -331,12 +317,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>logout</find>
-      <find>withDefaultPasswordEncoder</find>
-      <find>pass</find>
-      <find>eu</find>
-      <find>authenticationManager</find>
-      <find>zuul</find>
       <find>oaut</find>
       <find>/oaut</find>
       <find>server</find>
@@ -361,6 +341,12 @@
       <find>appea</find>
       <find>appeal-s</find>
       <find>sec</find>
+      <find>getGrantedAuthorities</find>
+      <find>UserDetailsService</find>
+      <find>dbUserDetailsService</find>
+      <find>data.sq</find>
+      <find>userDetailsService</find>
+      <find>authenticationManager</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -4212,15 +4198,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/gateway/src/main/java/com/andrgree/gateway/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/zipkin/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/zipkin/src/main/resources/bootstrap.application" />
-        <option value="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/proxy/AppealServiceProxy.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_70.txt" />
-        <option value="$PROJECT_DIR$/gateway/src/main/java/com/andrgree/gateway/GatewayApplication.java" />
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_71.txt" />
-        <option value="$PROJECT_DIR$/turbine/src/main/java/com/andrgree/turbine/TurbineApplication.java" />
-        <option value="$PROJECT_DIR$/zipkin/src/main/java/com/andrgree/zipkin/ZipkinApplication.java" />
         <option value="$PROJECT_DIR$/config/src/main/resources/config/zipkin-service.yml" />
         <option value="$PROJECT_DIR$/zuul/src/main/java/com/andrgree/zuul/ZuulApplication.java" />
         <option value="$PROJECT_DIR$/appeal/src/main/java/com/andrgree/appeal/model/Appeal.java" />
@@ -4242,7 +4219,6 @@
         <option value="$PROJECT_DIR$/resource/src/main/java/com/andrgree/resource/controller/UserController.java" />
         <option value="$PROJECT_DIR$/resource/src/main/java/com/andrgree/resource/config/WebSecurityConfigurer.java" />
         <option value="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/WebSecurityConfigurer.java" />
         <option value="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/AuthSecurityConfigurer.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/.idea/gradle.xml" />
@@ -4263,6 +4239,16 @@
         <option value="$PROJECT_DIR$/appeal/build.gradle" />
         <option value="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/model/Appeal.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/auth/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/repository/SecUserRepository.java" />
+        <option value="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/SecUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/SecUserAuthenticationProvider.java" />
+        <option value="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/model/SecPrivilege.java" />
+        <option value="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/WebSecurityConfigurer.java" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/config/auth-service.yml" />
+        <option value="$PROJECT_DIR$/auth/src/main/resources/data.sql" />
+        <option value="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/AuthServerSymmetricConfigurer.java" />
       </list>
     </option>
   </component>
@@ -4300,6 +4286,78 @@
               <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="auth" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="auth" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
@@ -4360,26 +4418,90 @@
               <item name="house" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="turbine" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="turbine" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="turbine" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="turbine" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
               <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="house" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="turbine" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="house" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
               <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="house" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="turbine" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="zipkin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="zipkin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="zipkin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="zipkin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="house" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="zipkin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="zipkin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="zuul" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -4399,7 +4521,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538821592473" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1538829063222" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/auth/build.gradle" />
@@ -4418,16 +4540,18 @@
       <recent name="com.andrgree.house.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth/src/main/resources" />
+      <recent name="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth" />
+      <recent name="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config" />
       <recent name="$PROJECT_DIR$/config/src/main/resources/config" />
-      <recent name="$PROJECT_DIR$/turbine/src/main/resources" />
-      <recent name="$PROJECT_DIR$/house" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.andrgree.auth.repository" />
       <recent name="com.andrgree.zuul.controller" />
       <recent name="com.andrgree.resource.config" />
       <recent name="com.andrgree.auth.config" />
       <recent name="com.andrgree.zuul.config" />
-      <recent name="com.andrgree.house.proxy" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/house/src/main/resources" />
@@ -4710,7 +4834,7 @@
       <workItem from="1538805348819" duration="235000" />
       <workItem from="1538805656282" duration="333000" />
       <workItem from="1538806027778" duration="1241000" />
-      <workItem from="1538807444527" duration="13798000" />
+      <workItem from="1538807444527" duration="20129000" />
     </task>
     <task id="LOCAL-00001" summary="Init 3">
       <created>1526818329785</created>
@@ -4761,16 +4885,24 @@
       <option name="project" value="LOCAL" />
       <updated>1529847647830</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Refactor I">
+      <created>1538821813012</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1538821813013</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="161715000" />
+    <option name="totallyTimeSpent" value="168046000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22411953" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22411953" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -4778,7 +4910,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Run Dashboard" order="0" weight="0.39205155" />
+      <window_info anchor="bottom" id="Run Dashboard" order="0" visible="true" weight="0.39205155" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32867885" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32760474" />
@@ -4794,7 +4926,7 @@
       <window_info anchor="bottom" id="Docker" order="13" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3297414" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="16" visible="true" weight="0.33727175" />
+      <window_info anchor="bottom" id="Version Control" order="16" weight="0.33727175" />
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="19" side_tool="true" />
@@ -4824,7 +4956,8 @@
     <MESSAGE value="Init Finish" />
     <MESSAGE value="Migrate to Spring Boot 2.1.0 Release" />
     <MESSAGE value="Init Turbine" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init Turbine" />
+    <MESSAGE value="Refactor I" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor I" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -4894,141 +5027,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/AuthSecurityConfigurer.java" />
-    <entry file="file://$PROJECT_DIR$/zuul-oauth/src/main/resources/bootstrap.yml" />
-    <entry file="file://$PROJECT_DIR$/auth/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/resource/src/main/java/com/andrgree/resource/ResourceApplication.java" />
-    <entry file="file://$PROJECT_DIR$/resource/src/main/java/com/andrgree/resource/controller/UserController.java" />
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/WebSecurityConfigurer.java" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth.boot/spring-security-oauth2-autoconfigure/2.0.0.RELEASE/f9156f3af3c98d3559c9f7fa51fc9dd88ec14462/spring-security-oauth2-autoconfigure-2.0.0.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/security/oauth2/client/EnableOAuth2Sso.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32865">
-          <caret line="2191" selection-start-line="2191" selection-end-line="2191" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/polis-quarter-system.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/gradle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/andrgree/zuul/ZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="39" selection-start-line="39" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appeal/src/main/java/com/andrgree/appeal/AppealApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/turbine/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="88" selection-start-line="38" selection-start-column="88" selection-end-line="38" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gateway/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/java/com/andrgree/config/ConfigApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka/src/main/java/com/andrgree/eureka/EurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zipkin/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="44" column="19" lean-forward="true" selection-start-line="44" selection-start-column="19" selection-end-line="44" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/bootstrap.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.1.0.BUILD-SNAPSHOT/4e116fd8977e1b7c205860a203ba2b790c9cfedc/spring-boot-autoconfigure-2.1.0.BUILD-SNAPSHOT-sources.jar!/org/springframework/boot/autoconfigure/jdbc/DataSourceAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/eureka-service.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/appeal-service-test.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -5075,20 +5073,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
           <caret line="34" column="14" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/house-service-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -5200,6 +5184,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/auth/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-436" />
+      </provider>
+    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -5207,11 +5209,166 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auth/.gitignore">
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/house/.gitignore">
+    <entry file="file://$PROJECT_DIR$/auth/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/eureka-service.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/gateway-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/model/SecUser.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/model/SecRole.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/model/Person.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/repository/SecUserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/PasswordEncoderConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/SecUserAuthenticationProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security.oauth/spring-security-oauth2/2.2.1.RELEASE/2fc46ad11050219e1d45663a9f872d9f773e19ba/spring-security-oauth2-2.2.1.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/AuthorizationServerSecurityConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/house-service-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/SecUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2243#2257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/resources/data.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="85" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/model/SecPrivilege.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/auth-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="29" column="9" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/AuthApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipkin/src/main/java/com/andrgree/zipkin/ZipkinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" selection-start-line="10" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbine/src/main/java/com/andrgree/turbine/TurbineApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/AuthServerSymmetricConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="36" column="41" lean-forward="true" selection-start-line="26" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.0.5.RELEASE/e18caab51190027ed8bafd8ed5d2f46174a86b50/spring-security-config-5.0.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/WebSecurityConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="19" column="68" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
