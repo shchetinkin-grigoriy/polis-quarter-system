@@ -21,7 +21,7 @@ security:
       filter-order: 3
 
 management:
-  context-path: /
+  context-path: /actuator
   security:
     enabled: false
 

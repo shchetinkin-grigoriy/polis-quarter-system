@@ -20,3 +20,24 @@ zuul:
       path: /appeal/**
       serviceId: appeal-service
 #      url: http://example.com/users_service
+
+# Configure the Authorization Server and User Info Resource Server details
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      accessTokenUri: http://localhost:7070/oauth/token
+      userAuthorizationUri: http://localhost:7070/oauth/authorize
+      clientId: polis
+      clientSecret: polis
+    resource:
+      userInfoUri: http://localhost:7070/user
+proxy:
+  auth:
+    routes:
+      house: oauth2
+management:
+  context-path: /actuator
+  security:
+    enabled: false

@@ -43,12 +43,26 @@ public class WebSecurityConfigurer extends WebSecurityConfigurerAdapter {
                 .permitAll()
                 .and().headers().frameOptions().sameOrigin()    //нужно для h2 консоли
                 .and().csrf().disable();
+        http.httpBasic().disable();
+        /*http.authorizeRequests()
+                .antMatchers("/login**").permitAll()
+                .anyRequest().authenticated()
+                //.and().csrf()
+                .and().formLogin();*/
     }
 
     @Override
     protected void configure(final AuthenticationManagerBuilder auth) throws Exception {
         auth.userDetailsService(userDetailsService);
         auth.authenticationProvider(accountAuthenticationProvider);
+       /* auth
+                //.parentAuthenticationManager(authenticationManager)
+                .inMemoryAuthentication()
+                .withUser("user").password("user")
+                .roles("USER")
+                .and()
+                .withUser("admin").password("admin")
+                .roles("USER", "ADMIN");*/
     }
 
 

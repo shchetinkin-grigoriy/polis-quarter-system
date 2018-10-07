@@ -19,11 +19,11 @@ import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 @Order(6)
 public class AuthServerSymmetricConfigurer extends AuthorizationServerConfigurerAdapter {
 
-    @Value("${jwt.symmetric-key}")
-    private String keyPassword;
+    /*@Value("${jwt.symmetric-key}")
+    private String keyPassword;*/
 
-    @Autowired
-    private UserDetailsService userDetailsService;
+//    @Autowired
+//    private UserDetailsService userDetailsService;
 
     @Override
     public void configure(
@@ -33,15 +33,15 @@ public class AuthServerSymmetricConfigurer extends AuthorizationServerConfigurer
             .inMemory()
             .withClient("polis")
             .secret("polis")
-            //.redirectUris("http://localhost:8080/")
+            //.redirectUris("http://localhost:9093/")
             .authorizedGrantTypes("authorization_code","refresh_token")
-            .scopes("read")
+            .scopes("myscope")
             .autoApprove(true)
             .accessTokenValiditySeconds(300)
             .refreshTokenValiditySeconds(1800);
     }
 
-    @Bean
+    /*@Bean
     public TokenStore tokenStore() {
         return new JwtTokenStore(jwtAccessTokenConverter());
     }
@@ -60,5 +60,5 @@ public class AuthServerSymmetricConfigurer extends AuthorizationServerConfigurer
         converter.setSigningKey(keyPassword);
 
         return converter;
-    }
+    }*/
 }
