@@ -28,8 +28,8 @@
     <orderEntry type="library" name="Gradle: io.springfox:springfox-swagger-ui:2.8.0" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.boot:spring-boot-starter-test:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-ribbon:2.0.2.BUILD-SNAPSHOT" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-devtools:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-netflix-zuul:2.0.2.BUILD-SNAPSHOT" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework.boot:spring-boot-devtools:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-hystrix:2.0.2.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter-netflix-archaius:2.0.2.BUILD-SNAPSHOT" level="project" />
     <orderEntry type="library" name="Gradle: org.springframework.cloud:spring-cloud-starter:2.0.2.BUILD-SNAPSHOT" level="project" />
