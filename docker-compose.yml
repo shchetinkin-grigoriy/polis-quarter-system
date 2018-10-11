@@ -1,0 +1,74 @@
+version: '3.2'
+services:
+  config-server:
+    image: shchetinkingn/polis-system-config
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+    ports:
+    - 9090:9090
+    networks:
+    - webnet
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "10"
+
+  eureka-server:
+    image: shchetinkingn/polis-system-eureka
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+    ports:
+    - 9091:9091
+    links:
+    - config-server:config-server
+    depends_on:
+    - config-server
+    networks:
+    - webnet
+
+  house-server:
+    image: shchetinkingn/polis-system-house
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          cpus: "0.1"
+          memory: 50M
+      restart_policy:
+        condition: on-failure
+    ports:
+    - 8090:8090
+    - 8000:8000
+    links:
+    - config-server:config-server
+    - eureka-server:eureka-server
+    depends_on:
+    - config-server
+    - eureka-server
+    logging:
+      options:
+        max-size: "10m"
+        max-file: "10"
+    networks:
+    - webnet
+
+#    networks:
+#      - emp-network
+#networks:
+#  emp-network:
+#    driver: bridge
+networks:
+  webnet:

@@ -35,7 +35,8 @@ import java.util.List;
 @EnableHystrix
 public class HouseApplication implements CommandLineRunner {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
+		Thread.sleep(15_000L);
 		SpringApplication.run(HouseApplication.class, args);
 	}
 
