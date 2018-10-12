@@ -6,37 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="71817cd2-045d-420c-bd16-a8c6e4ea0126" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/config/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/house/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/appeal_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/appeal_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/appeal_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/appeal_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/config_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/config_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/config_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/config_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/gateway_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gateway_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/gateway_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/gateway_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/turbine_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/turbine_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/turbine_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/turbine_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/zipkin_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/zipkin_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/zipkin_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/zipkin_test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/zuul_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/zuul_main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/zuul_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/zuul_test.iml" afterDir="false" />
+    <list default="true" id="71817cd2-045d-420c-bd16-a8c6e4ea0126" name="Default" comment="Docker Initialization">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/config/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/resources/config/eureka-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/config/eureka-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/src/main/resources/config/house-service-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/config/house-service-test.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/com/andrgree/eureka/EurekaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/java/com/andrgree/eureka/EurekaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/house/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/HouseApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/HouseApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/house/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/src/test/java/com/andrgree/house/HouseApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/house/src/test/java/com/andrgree/house/HouseApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house/src/test/java/com/andrgree/house/HouseApplicationTests2.java" beforeDir="false" afterPath="$PROJECT_DIR$/house/src/test/java/com/andrgree/house/HouseApplicationTests2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -166,20 +141,22 @@
     <session id="-1932011180">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.37" value="2" />
           <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.48" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -188,15 +165,19 @@
           <entry key="Order" value="1" />
           <entry key="SiteSecurityConfigurer" value="1" />
           <entry key="class" value="2" />
-          <entry key="gitignore" value="4" />
+          <entry key="css" value="4" />
+          <entry key="gitignore" value="6" />
           <entry key="gradle" value="33" />
           <entry key="gradlew" value="2" />
+          <entry key="html" value="3" />
           <entry key="iml" value="1" />
-          <entry key="java" value="104" />
-          <entry key="json" value="1" />
-          <entry key="properties" value="26" />
+          <entry key="java" value="108" />
+          <entry key="json" value="3" />
+          <entry key="md" value="1" />
+          <entry key="properties" value="27" />
           <entry key="sh" value="1" />
           <entry key="sql" value="2" />
+          <entry key="ts" value="11" />
           <entry key="txt" value="1" />
           <entry key="xml" value="4" />
           <entry key="yml" value="42" />
@@ -205,15 +186,19 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
+          <entry key="CSS" value="4" />
           <entry key="Dockerfile" value="12" />
           <entry key="Groovy" value="33" />
+          <entry key="HTML" value="3" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="104" />
-          <entry key="JSON" value="1" />
-          <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Properties" value="26" />
+          <entry key="JAVA" value="108" />
+          <entry key="JSON" value="3" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="9" />
+          <entry key="Properties" value="27" />
           <entry key="SQL" value="2" />
           <entry key="Scratch" value="1" />
+          <entry key="TypeScript" value="11" />
           <entry key="UML" value="2" />
           <entry key="XML" value="4" />
           <entry key="YAML" value="42" />
@@ -221,31 +206,41 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="CSS" value="1" />
           <entry key="Dockerfile" value="118" />
           <entry key="Groovy" value="184" />
-          <entry key="JAVA" value="638" />
-          <entry key="PLAIN_TEXT" value="55" />
-          <entry key="Properties" value="27" />
+          <entry key="HTML" value="46" />
+          <entry key="JAVA" value="678" />
+          <entry key="PLAIN_TEXT" value="81" />
+          <entry key="Properties" value="28" />
           <entry key="Scratch" value="23" />
+          <entry key="TypeScript" value="64" />
           <entry key="XML" value="9" />
-          <entry key="YAML" value="327" />
+          <entry key="YAML" value="329" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Dockerfile" value="118" />
-          <entry key="gitignore" value="4" />
+          <entry key="css" value="1" />
+          <entry key="gitignore" value="24" />
           <entry key="gradle" value="184" />
-          <entry key="java" value="638" />
-          <entry key="properties" value="27" />
+          <entry key="html" value="46" />
+          <entry key="java" value="678" />
+          <entry key="properties" value="28" />
           <entry key="sh" value="6" />
-          <entry key="txt" value="68" />
+          <entry key="ts" value="64" />
+          <entry key="txt" value="74" />
           <entry key="xml" value="9" />
-          <entry key="yml" value="327" />
+          <entry key="yml" value="329" />
         </counts>
       </usages-collector>
-      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="Angular2LanguageService" value="2" />
+        </counts>
+      </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.spring.boot.run.usages" />
     </session>
@@ -253,97 +248,95 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/src/main/resources/bootstrap.properties">
+        <entry file="file://$PROJECT_DIR$/client/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/Dockerfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="60">
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/HouseApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="36" lean-forward="true" selection-start-line="35" selection-end-line="40" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/house/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/client/src/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/house/build.gradle">
+        <entry file="file://$PROJECT_DIR$/client/src/app/house.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+            <state relative-caret-position="180">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+        <entry file="file://$PROJECT_DIR$/client/src/app/house-list/house-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="65" column="12" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="65" selection-end-column="12" />
+            <state relative-caret-position="60">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka/build.gradle">
+        <entry file="file://$PROJECT_DIR$/client/src/test.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/app/house-list/house-list.component.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="32" selection-start-line="32" selection-end-line="41" selection-end-column="1" />
+            <state relative-caret-position="495">
+              <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/app/house-list/house-list.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -359,8 +352,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>DataSourceInitializerInvoker</find>
-      <find>spring-cloud-starter-config</find>
       <find>h2-c</find>
       <find>FAIL_ON_EMPTY_BEANS</find>
       <find>appea</find>
@@ -389,6 +380,8 @@
       <find>service_healthy</find>
       <find>health</find>
       <find>8000</find>
+      <find>node</find>
+      <find>BrowserAnimationsModule</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -4438,18 +4431,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/turbine/build.gradle" />
-        <option value="$PROJECT_DIR$/zipkin/build.gradle" />
-        <option value="$PROJECT_DIR$/gateway/build.gradle" />
-        <option value="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/repository/HouseRepository.java" />
-        <option value="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseService.java" />
-        <option value="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/model/House.java" />
-        <option value="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/appeal/build.gradle" />
         <option value="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/model/Appeal.java" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_2.txt" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/repository/SecUserRepository.java" />
         <option value="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/SecUserDetailsService.java" />
         <option value="$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/SecUserAuthenticationProvider.java" />
@@ -4484,11 +4467,21 @@
         <option value="$PROJECT_DIR$/house/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/HouseApplication.java" />
         <option value="$PROJECT_DIR$/config/src/main/resources/config/eureka-service.yml" />
-        <option value="$PROJECT_DIR$/config/src/main/resources/config/house-service-test.properties" />
         <option value="$PROJECT_DIR$/config/build.gradle" />
         <option value="$PROJECT_DIR$/config/Dockerfile" />
         <option value="$PROJECT_DIR$/house/Dockerfile" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/config/house-service-test.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/client/src/app/house-list/house-list.component.ts" />
+        <option value="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseService.java" />
+        <option value="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/client/src/app/house.service.ts" />
+        <option value="$PROJECT_DIR$/client/src/app/house-list/house-list.component.html" />
+        <option value="$PROJECT_DIR$/client/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/client/src/styles.css" />
+        <option value="$PROJECT_DIR$/client/src/app/app.component.html" />
       </list>
     </option>
   </component>
@@ -4497,6 +4490,63 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/client/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/client/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/a11y/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/accordion/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/bidi/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/coercion/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/collections/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/keycodes/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/layout/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/observers/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/overlay/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/platform/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/portal/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/scrolling/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/stepper/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/cdk/table/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/autocomplete/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/button-toggle/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/button/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/card/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/checkbox/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/chips/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/core/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/datepicker/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/dialog/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/divider/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/expansion/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/form-field/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/grid-list/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/icon/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/input/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/list/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/menu/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/paginator/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/progress-bar/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/progress-spinner/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/radio/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/select/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/sidenav/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/slide-toggle/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/slider/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/snack-bar/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/sort/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/stepper/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/table/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/tabs/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/toolbar/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/@angular/material/tooltip/package.json" />
+      <path value="$PROJECT_DIR$/node_modules/tslib/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1920" />
@@ -4509,12 +4559,39 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
               <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
+              <item name="polis-quarter-system" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="house-list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="polis-quarter-system" type="b2602c69:ProjectViewProjectNode" />
@@ -4658,7 +4735,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -4671,7 +4747,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539232417524" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539250646050" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="TEXT" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/docker-compose.yml" />
@@ -4681,6 +4757,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Docker" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/client/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -5031,7 +5108,9 @@
       <workItem from="1538914794432" duration="2884000" />
       <workItem from="1538917806319" duration="4391000" />
       <workItem from="1538922413842" duration="639000" />
-      <workItem from="1538923147009" duration="54643000" />
+      <workItem from="1538923147009" duration="55606000" />
+      <workItem from="1539233470458" duration="4533000" />
+      <workItem from="1539251217782" duration="1305000" />
     </task>
     <task id="LOCAL-00001" summary="Init 3">
       <created>1526818329785</created>
@@ -5110,11 +5189,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538933250323</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Docker Initialization">
+      <created>1539232523141</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1539232523141</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242312000" />
+    <option name="totallyTimeSpent" value="249113000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -5126,9 +5212,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1055" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1055" extended-state="1" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2457265" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25106838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -5156,12 +5242,13 @@
       <window_info anchor="bottom" id="JRebel Executor" order="17" />
       <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
       <window_info anchor="bottom" id="Event Log" order="19" sideWeight="0.5053419" side_tool="true" weight="0.39957035" />
+      <window_info anchor="bottom" id="TypeScript" order="20" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.17574786" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.17574786" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Bean Validation" order="8" />
@@ -5186,20 +5273,21 @@
     <MESSAGE value="Auth Server Initialization" />
     <MESSAGE value="Auth Server Initialization 2" />
     <MESSAGE value="Auth Server Initialization 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Auth Server Initialization 3" />
+    <MESSAGE value="Docker Initialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="Docker Initialization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java</url>
-          <line>31</line>
+          <line>34</line>
           <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java</url>
-          <line>33</line>
+          <line>36</line>
           <properties />
           <option name="timeStamp" value="27" />
         </line-breakpoint>
@@ -5256,133 +5344,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/5.0.5.RELEASE/e18caab51190027ed8bafd8ed5d2f46174a86b50/spring-security-config-5.0.5.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/resources/data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="85" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/repository/SecUserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/turbine-service.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/2.0.2.RELEASE/f4b25e753e4955337a138d8b1550236b5efe5b3b/spring-boot-autoconfigure-2.0.2.RELEASE.jar!/META-INF/spring-configuration-metadata.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/out/production/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/out/production/classes/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/SecUserAuthenticationProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/security/SecUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="20" column="30" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.0.6.RELEASE/86ca74938ace10c2aff781b6d93888435baf7474/spring-core-5.0.6.RELEASE-sources.jar!/org/springframework/core/annotation/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="65" column="18" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/AuthApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-security/2.0.1.BUILD-SNAPSHOT/58f4d2b5fa04530581354e29605a7c6bddd4e38e/spring-cloud-security-2.0.1.BUILD-SNAPSHOT-sources.jar!/org/springframework/cloud/security/oauth2/proxy/ProxyAuthenticationProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="60" column="24" selection-start-line="60" selection-start-column="24" selection-end-line="60" selection-end-column="24" />
-          <folding>
-            <element signature="e#1375#1376#0" expanded="true" />
-            <element signature="e#1395#1396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/filters/SimpleFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/andrgree/zuul/filters/SimpleFilter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/WebSecurityConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/controller/ResourceController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zuul/src/main/java/com/andrgree/zuul/controller/CloudSiteController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auth/src/main/java/com/andrgree/auth/config/AuthServerSymmetricConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -5418,10 +5379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14">
           <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
-          <folding>
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5456,13 +5413,7 @@
     <entry file="file://$PROJECT_DIR$/eureka/build/docker/Dockerfile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/house/wait-for.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/house/wait-for.sh" />
     <entry file="file://$PROJECT_DIR$/house/src/test/java/com/andrgree/house/HouseApplicationTests2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -5474,9 +5425,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="29" column="87" selection-start-line="27" selection-start-column="8" selection-end-line="29" selection-end-column="87" />
-          <folding>
-            <marker date="1538982299702" expanded="true" signature="1041:1250" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -5505,13 +5453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/house-service-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -5549,14 +5490,14 @@
     <entry file="file://$PROJECT_DIR$/config/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
-          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+          <caret line="54" column="19" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/house/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
-          <caret line="44" column="18" lean-forward="true" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
+          <caret line="44" column="18" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -5567,37 +5508,177 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="65" column="12" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="65" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/HouseApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="36" lean-forward="true" selection-start-line="35" selection-end-line="40" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/house/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="65" column="12" selection-start-line="41" selection-start-column="1" selection-end-line="65" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/config/house-service-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/HouseApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <folding>
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#930#931#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/service/HouseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/material/list/typings/list-module.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/house.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/house-list/house-list.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/test.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/house-list/house-list.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/house/src/main/java/com/andrgree/house/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/house-list/house-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>

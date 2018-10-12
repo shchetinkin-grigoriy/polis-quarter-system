@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 @Transactional
 public class HouseServiceImpl implements HouseService {
@@ -25,5 +27,10 @@ public class HouseServiceImpl implements HouseService {
         house.setId(id);
         house.setProfile(profile);
         return repository.saveAndFlush(house);
+    }
+
+    @Override
+    public List<House> getFindAll() {
+        return repository.findAll();
     }
 }

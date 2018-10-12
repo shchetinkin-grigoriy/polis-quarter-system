@@ -1,6 +1,10 @@
 .gradle
 /build/
 /.gradle/
+/client//node_modules
+/client/node_modules/**
+client/node_modules
+client/node_modules/**
 !gradle/wrapper/gradle-wrapper.jar
 
 ### STS ###
